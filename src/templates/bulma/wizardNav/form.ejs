@@ -1,4 +1,4 @@
-<ul class="list-inline">
+<ul class="list-inline" id="{{ ctx.wizardKey }}-nav">
   {% if (ctx.buttons.cancel) { %}
   <li class="list-inline-item">
     <button class="btn btn-secondary btn-wizard-nav-cancel" ref="{{ctx.wizardKey}}-cancel">{{ctx.t('cancel')}}</button>
