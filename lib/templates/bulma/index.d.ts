@@ -13,6 +13,12 @@ declare const _default: {
         form: string;
         builder: string;
     };
+    wizardHeader: {
+        form: string;
+    };
+    wizardNav: {
+        form: string;
+    };
     treeView: {
         form: string;
     };
